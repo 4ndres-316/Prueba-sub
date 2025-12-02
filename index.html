@@ -1,45 +1,184 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main>
-            <h1>ESTO ES UNA PRUEBA DE SUBIDA, TRANQUILO GITHUB</h1>
-            <p>mod</p>
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+  <body>
+    <header>
+      <div class="p-3 bg-info mb-3">
+        <div class="row mb-3">
+          <img
+            class="col-1"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7o9txqNIUebeCII7sORTybNQT_pZqCbZGFg&s"
+            alt="Logo"
+            height="100"
+          />
+          <h1 class="p-2 col-2 text-danger">Página Épica<br />La P.E.</h1>
+        </div>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand">Principal</a>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#staticBackdrop"
+                aria-controls="staticBackdrop"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </nav>
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-backdrop="static"
+          tabindex="-1"
+          id="staticBackdrop"
+          aria-labelledby="staticBackdropLabel"
+        >
+          <div id="" class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="list-group">
+              <li class="list-group-item"><a href="#">Inicio</a></li>
+              <li class="list-group-item">
+                <a id="header" href="#">Cambiar color header</a>
+              </li>
+              <li class="list-group-item">
+                <a id="main" href="#">cambiar color main</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="row bg-warning">
+      <div class="m-3 card col-1" style="width: 18rem">
+        <div class="card-body m">
+          <h5 class="card-title">Carta</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Carta chambeadora
+          </h6>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            ratione magnam repellat ex neque, reiciendis dicta veniam adipisci
+            ullam architecto, quod quibusdam amet quam ducimus officia
+            perferendis. Facere, alias minima?
+          </p>
+        </div>
+      </div>
+      <div class="m-3 card col-1" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Carta</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Carta trueno</h6>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            ratione magnam repellat ex neque, reiciendis dicta veniam adipisci
+            ullam architecto, quod quibusdam amet quam ducimus officia
+            perferendis. Facere, alias minima?
+          </p>
+        </div>
+      </div>
+      <div class="m-3 card col-1" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Carta</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Carta rara</h6>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            ratione magnam repellat ex neque, reiciendis dicta veniam adipisci
+            ullam architecto, quod quibusdam amet quam ducimus officia
+            perferendis. Facere, alias minima?
+          </p>
+        </div>
+      </div>
+      <div class="m-3 card col-1" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Carta</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            Carta Nerfeen al Minero
+          </h6>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            ratione magnam repellat ex neque, reiciendis dicta veniam adipisci
+            ullam architecto, quod quibusdam amet quam ducimus officia
+            perferendis. Facere, alias minima?
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSExjIj9llso95DISFwruBFIuT9pNUmqIFXUw&s" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttvX5sTB831VlcbfRnvh-otmyp9K3cGf1wQ&s" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPAdwgYnh5c7Jd5Or5iAwImfdZ1wjOaZnjk36FSgv5-1m1yGIXYthpJgyfhuUiSSBKKNQ&usqp=CAU" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
