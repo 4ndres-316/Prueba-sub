@@ -22,7 +22,8 @@
     <!--HEADER-->
     <header>
       <div class="p-3 bg-info mb-3">
-        <div class="row align-items-center mb-3">
+        <!-- Logo + Título en la misma fila -->
+        <div class="row align-items-center mb-3 text-center">
           <div class="col-auto">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7o9txqNIUebeCII7sORTybNQT_pZqCbZGFg&s"
@@ -31,7 +32,7 @@
               class="rounded-circle shadow"
             />
           </div>
-          <div class="col text-center">
+          <div class="col">
             <h1 class="text-danger fw-bold m-0">
               Página Épica <br />
               <small class="text-dark">La P.E.</small>
@@ -39,12 +40,15 @@
           </div>
         </div>
 
+        <!-- Navbar -->
         <nav class="navbar bg-body-tertiary rounded shadow-sm">
-          <div class="container-fluid">
-            <h5 class="navbar-brand fw-bold text-danger">Principal</h5>
-            <form class="d-flex flex-grow-1 ms-3" role="search">
+          <div class="container-fluid d-flex align-items-center">
+            <h5 class="navbar-brand fw-bold text-danger mb-0 me-3">
+              Principal
+            </h5>
+            <form class="d-flex flex-grow-1" role="search">
               <input
-                class="form-control me-2 w-100"
+                class="form-control me-2"
                 type="search"
                 placeholder="Buscar..."
                 aria-label="Search"
@@ -63,11 +67,12 @@
         </nav>
       </div>
     </header>
+
     <!--MAIN-->
     <main class="bg-warning-subtle p-3">
       <div class="row justify-content-center g-4">
         <!-- Carta 1 -->
-        <div class="col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card h-100">
             <img
               src="https://assets.epuzzle.info/puzzle/067/306/original.jpg"
@@ -82,7 +87,7 @@
         </div>
 
         <!-- Carta 2 -->
-        <div class="col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card h-100">
             <img
               src="https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/10/latest/20110910032922/EP443_Scizor_usando_Velocidad.jpg/200px-EP443_Scizor_usando_Velocidad.jpg"
@@ -97,7 +102,7 @@
         </div>
 
         <!-- Carta 3 -->
-        <div class="col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card h-100">
             <img
               src="https://preview.redd.it/hydyasqkq0m71.jpg?auto=webp&s=dcc145fb1d84c352b4fd47d85505b14f63021953"
@@ -112,7 +117,7 @@
         </div>
 
         <!-- Carta 4 -->
-        <div class="col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card h-100">
             <img
               src="https://images.wikidexcdn.net/mwuploads/wikidex/6/63/latest/20091126211816/EP458_Squirtle_usando_giro_r%C3%A1pido.png"
@@ -127,7 +132,7 @@
         </div>
 
         <!-- Carta 5 -->
-        <div class="col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card h-100">
             <img
               src="https://pm1.aminoapps.com/6105/ba27dea1ae18c6c263dc495974d64a6247eea42f_hq.jpg"
@@ -142,7 +147,7 @@
         </div>
 
         <!-- Carta 6 -->
-        <div class="col-md-4">
+        <div class="col-12 col-sm-6 col-md-4">
           <div class="card h-100">
             <img
               src="https://i.pinimg.com/736x/2f/c4/be/2fc4bed9ffe1fec42c1db15849365477.jpg"
@@ -157,15 +162,14 @@
         </div>
       </div>
     </main>
+
     <!--FOOTER-->
     <footer class="bg-info text-center text-dark p-4 mt-5">
       <div class="container">
-        <!-- Nombre de la página -->
         <h3 class="text-danger fw-bold m-0">
           Página Épica <br />
           <small class="text-dark">La P.E.</small>
         </h3>
-        <!-- Texto explicativo -->
         <p class="mt-3">
           Squirtle es un Pokémon de tipo Agua, conocido por su caparazón que le
           sirve de defensa y su habilidad para lanzar chorros de agua. Como
@@ -174,6 +178,7 @@
         </p>
       </div>
     </footer>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
